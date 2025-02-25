@@ -13,7 +13,7 @@ If you're learning to code in Python, I think this is also a fun exercise to lea
 The code is not copyright protected. You can use it as you wish. Please note that the First Orchard game is the property and trademark of Haba. Haba has nothing to do with this code in any way. This code is just a simple fun exercise and a great learning experience.
 
 ### Creating the Environment
-I used micromamba to create the environment behind this game. It's not really needed, but it is helpful to create an environment that will not impact base Python on your machine. The only library I used in this code is the `random` library. I'm also coding this in python 3.13.
+I used micromamba to create the environment behind this game. It's not really needed, but it is helpful to create an environment that will not impact base Python on your machine. The only library I used in this code is the `random` library. I'm also coding this in python 3.13. See the [env.yaml](https://github.com/nikdata/first-orchard-game-python/blob/main/env.yaml) for more information.
 
 To create the environment:
 
@@ -35,6 +35,6 @@ python game-script.py
 
 ### About the Code
 
-I've added numerous comments throughout the code (see game-script.py). This is not a script structured with object-oriented principles. I've used a functional-programming approach for this exercise. Put another way, I'm not using classes or objects. I'm primarily using functions.
+I've added numerous comments throughout the code (see [game-script.py](https://github.com/nikdata/first-orchard-game-python/blob/main/game-script.py)). This is not a script structured with object-oriented principles. I've used a functional-programming approach for this exercise. Put another way, I'm not using classes or objects. I'm primarily using functions.
 
 For each function, I've also used [typing](https://docs.python.org/3/library/typing.html) hints (these are not enforced). This approach helps to highlight what kinds of values are accepted by functions and what kind of value will be returned by the function (if any). 
